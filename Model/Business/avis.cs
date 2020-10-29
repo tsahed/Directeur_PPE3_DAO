@@ -16,12 +16,20 @@ namespace Directeur_PPE3_DAO
         #endregion
 
         #region Constructeurs
-        public void Avis(int idAvis, int idClient, int idSalle, string avis)
+        public avis(int idAvis, int idClient, int idSalle, string avis)
         {
-            idAvis = _idAvis;
-            idClient = _idClient;
-            idSalle = _idSalle;
-            avis = _avis;
+            _idAvis = idAvis;
+            _idClient = idClient;
+            _idSalle = idSalle;
+            _avis = avis;
+        }
+
+        public avis()
+        {
+            _idAvis = -1;
+            _idClient = -1;
+            _idSalle = -1;
+            _avis = "";
         }
         #endregion
 

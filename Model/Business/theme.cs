@@ -13,10 +13,16 @@ namespace Directeur_PPE3_DAO
         #endregion
 
         #region Constructeurs
-        public void Theme(int idTheme, string theme)
+        public theme(int idTheme, string theme)
         {
             _idTheme = idTheme;
             _theme = theme;
+        }
+
+        public theme()
+        {
+            _idTheme = -1;
+            _theme = "";
         }
         #endregion
 

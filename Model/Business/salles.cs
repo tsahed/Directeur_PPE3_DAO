@@ -13,10 +13,16 @@ namespace Directeur_PPE3_DAO
         #endregion
 
         #region Constructeurs
-        public void Salles(int idSalle, string ville)
+        public salles(int idSalle, string ville)
         {
-            idSalle = _idSalle;
-            ville = _ville;
+           _idSalle = idSalle;
+            _ville = ville;
+        }
+
+        public salles()
+        {
+            _idSalle = -1;
+            _ville = "";
         }
         #endregion
 
